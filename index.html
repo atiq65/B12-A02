@@ -3,12 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/713c73bcc1.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Assignment 02</title>
+    <link rel="stylesheet" href="./style/costome.css" />
   </head>
-  <body>
-    <h2>hello</h2>
-    <h1>welcome</h1>
-    <h5>beautiful</h5>
+  <body class="noto-serif-normal">
+    <!-- Header Section -->
+    <header class="header">
+      <nav class="nav">
+        <div class="nav-logo">
+          <img src="./images/logo.png" alt="" />
+        </div>
+        <ul>
+          <li class="mobile-hidden"><a class="home" href="">Home</a></li>
+          <li class="mobile-hidden"><a href="">Shope</a></li>
+          <li class="mobile-hidden"><a href="">About Us</a></li>
+          <li><i class="fa-solid fa-cart-shopping"></i>Cart ($56)</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="conteiner">
+          <div class="hero-content">
+            <h1 class="hero-title primary-color">
+              ALWAYS FRESH <br /><span class="secondary-color">FLOWERS</span>
+            </h1>
+            <p class="p-description">
+              Indulge your senses with the beauty and fragrance of <br />
+              our fresh flower shop. From classic roses to exotic <br />
+              blooms, we offer a wide variety of fresh flowers that <br />
+              are perfect for any occasion.
+            </p>
+          </div>
+          <div class="hero-img">
+            <img src="./images/hero-flower.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

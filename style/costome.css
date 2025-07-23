@@ -1,0 +1,92 @@
+/* Google Font */
+
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+/* Shared Style */
+.primary-color {
+  color: #000000;
+}
+.secondary-color {
+  color: #e95a08;
+}
+.p-description {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+}
+/* Header Section */
+.header {
+  max-width: 1140px;
+  margin: 30px auto;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: auto;
+}
+.header ul {
+  display: flex;
+  font-size: medium;
+  gap: 48px;
+}
+.home {
+  color: #252432;
+}
+.nav-logo {
+  width: 135px;
+}
+
+ul li {
+  list-style: none;
+  color: #8987a1;
+}
+ul li a {
+  text-decoration: none;
+  color: #8987a1;
+}
+/* Hero Section */
+.hero {
+  max-width: 1140px;
+  margin: 120px auto;
+}
+.conteiner {
+  display: flex;
+  align-items: flex-end;
+}
+.hero-content {
+  flex: 1;
+}
+.hero-img {
+  flex: 1;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 65px;
+}
+/* Mobile Responsive */
+@media screen and (max-width: 576px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .mobile-hidden {
+    display: none;
+    visibility: hidden;
+  }
+  .conteiner {
+    flex-direction: column-reverse;
+  }
+}
