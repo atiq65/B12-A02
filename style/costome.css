@@ -63,13 +63,17 @@ ul li a {
 }
 .conteiner {
   display: flex;
+  justify-content: space-between;
   align-items: flex-end;
 }
-.hero-content {
+/* .hero-content {
   flex: 1;
 }
 .hero-img {
   flex: 1;
+} */
+.card img {
+  max-width: 100%;
 }
 .hero-title {
   font-weight: 700;
@@ -139,7 +143,6 @@ ul li a {
   }
   .conteiner {
     flex-direction: column-reverse;
-    align-items: center;
   }
   .conteiner-card {
     grid-template-columns: repeat(2, 1fr);
