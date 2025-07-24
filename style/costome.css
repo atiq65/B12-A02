@@ -123,7 +123,7 @@ ul li a {
 .conteiner-card {
   max-width: 1140px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 270px, 270px, 270px, 270px);
   margin-top: 50px;
   gap: 20px;
 }
@@ -145,6 +145,6 @@ ul li a {
     flex-direction: column-reverse;
   }
   .conteiner-card {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 270px, 270px);
   }
 }
