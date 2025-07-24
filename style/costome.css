@@ -10,7 +10,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 /* Shared Style */
 .primary-color {
@@ -75,6 +75,57 @@ ul li a {
   font-weight: 700;
   font-size: 65px;
 }
+/* Our Plants */
+.Our-plants {
+  max-width: 1140px;
+  margin: auto;
+  margin-top: 100px;
+}
+.plant-content {
+  text-align: center;
+}
+.plant-title {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 16px;
+}
+/* Card */
+.card {
+  text-align: center;
+}
+.card-title {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #111111;
+  margin-top: 30px;
+}
+.card-price {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #111111;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.btn-primary {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #e95a08;
+  padding: 19px 90px;
+  border: none;
+}
+.conteiner-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 50px;
+  gap: 20px;
+}
+.conteiner-card img {
+  max-width: 100%;
+}
 /* Mobile Responsive */
 @media screen and (max-width: 576px) {
   * {
@@ -88,5 +139,8 @@ ul li a {
   }
   .conteiner {
     flex-direction: column-reverse;
+  }
+  .conteiner-card {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
