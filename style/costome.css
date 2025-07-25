@@ -362,6 +362,9 @@ footer {
   #input {
     width: auto;
   }
+  .class-btn {
+    padding: 19px 12px;
+  }
   .footer-conteiner {
     flex-direction: column;
     margin: 0 20px;
