@@ -94,7 +94,11 @@ ul li a {
 }
 /* Card */
 .card {
+  /* width: 270px; */
   text-align: center;
+}
+.card-img {
+  width: 100%;
 }
 .card-title {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -118,7 +122,6 @@ ul li a {
   color: #ffffff;
   background-color: #e95a08;
   padding: 19px 90px;
-  width: 270px;
   border: none;
 }
 .card-section {
@@ -325,6 +328,15 @@ footer {
   .conteiner-card {
     grid-template-columns: repeat(2, 1fr);
     margin: auto 5px;
+  }
+  /* .card {
+    width: 135px;
+  } */
+  .card-img {
+    width: 95%;
+  }
+  .btn-primary {
+    padding: 19px 30px;
   }
   .flower-plant {
     margin: 40px 15px;
