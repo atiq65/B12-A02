@@ -82,7 +82,7 @@ ul li a {
 /* Our Plants */
 .Our-plants {
   max-width: 1140px;
-  margin: auto;
+  margin: 0 auto;
 }
 .plant-content {
   text-align: center;
@@ -118,18 +118,19 @@ ul li a {
   color: #ffffff;
   background-color: #e95a08;
   padding: 19px 90px;
+  width: 270px;
   border: none;
 }
+.card-section {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 .conteiner-card {
-  /* max-width: 1140px; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-top: 50px;
   gap: 20px;
 }
-/* .conteiner-card img {
-  max-width: 100%;
-} */
 /* Flower And Plant */
 .flower-title {
   font-weight: 700;
@@ -293,8 +294,7 @@ footer {
   max-width: 1120px;
   height: 248px;
   margin: 50px auto;
-  /* display: grid;
-  grid-template-columns: repeat(4, 1fr); */
+
   display: flex;
   justify-content: space-between;
 }
