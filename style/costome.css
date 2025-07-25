@@ -121,15 +121,15 @@ ul li a {
   border: none;
 }
 .conteiner-card {
-  max-width: 1140px;
+  /* max-width: 1140px; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-top: 50px;
   gap: 20px;
 }
-.conteiner-card img {
+/* .conteiner-card img {
   max-width: 100%;
-}
+} */
 /* Flower And Plant */
 .flower-title {
   font-weight: 700;
@@ -324,7 +324,7 @@ footer {
   }
   .conteiner-card {
     grid-template-columns: repeat(2, 1fr);
-    margin: auto 15px;
+    margin: auto 5px;
   }
   .flower-plant {
     margin: 40px 15px;
